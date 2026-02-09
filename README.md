@@ -1,20 +1,20 @@
-# Flask_UserAPI 🔥🖥️
-## 🌍 Introduction
+# Flask_UserAPI
+##  Introduction
 
 Flask_UserAPI is a RESTful API built with Flask and Flask-RESTful to manage user records in a MySQL database. It provides basic CRUD operations (Create, Read, Update, Delete) and follows a modular structure for easy maintainability.
 
 This README is available in both English and Spanish. Below, you will find sections detailing installation, usage, and testing.
 
 <details> 
-  <summary>Flask_UserAPI 🔥🖥️ English</summary>
+  <summary>Flask_UserAPI  English</summary>
 
-## 📌 Description
+##  Description
 
 Flask_UserAPI is a RESTful API that allows managing users in a structured way. It uses Flask-RESTful to define endpoints and MySQL as the database engine.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```sh
 Flask_UserAPI/
@@ -31,15 +31,15 @@ Flask_UserAPI/
 
 ---
 
-# 🚀 Installation and Usage
-## 📌 1. Clone the repository
+#  Installation and Usage
+##  1. Clone the repository
 
 ```sh
 git clone https://github.com/camilotenorio1234/Flask_UserAPI.git
 cd Flask_UserAPI
 ```
 
-## 📌 2. Install dependencies
+##  2. Install dependencies
 
 Ensure you have Python 3 installed, then run:
 
@@ -47,7 +47,7 @@ Ensure you have Python 3 installed, then run:
 pip install -r requirements.txt
 ```
 
-## 📌 3. Run the API
+##  3. Run the API
 
 Start the API using:
 
@@ -59,8 +59,8 @@ By default, the API will run on http://127.0.0.1:5000/.
 
 ---
 
-# 📡 API Endpoints
-## 🔹 Create a user (POST)
+#  API Endpoints
+##  Create a user (POST)
 
 - **URL:** `http://127.0.0.1:5000/usuario`
 - **Method:** `POST`
@@ -78,11 +78,11 @@ By default, the API will run on http://127.0.0.1:5000/.
 }
 ```
 
-## 🔹 Get user by ID (GET)
+##  Get user by ID (GET)
 - **URL:** `http://127.0.0.1:5000/usuario/12345678`
 - **Method:** `GET`
 
-## 🔹 Update user (PUT)
+## Update user (PUT)
 - **URL:** `http://127.0.0.1:5000/usuario/12345678`
 - **Method:** `PUT`
 - **Body (JSON, Raw):**
@@ -97,13 +97,13 @@ By default, the API will run on http://127.0.0.1:5000/.
 }
 ```
 
-## 🔹 Delete user (DELETE)
+##  Delete user (DELETE)
 - **URL:** `http://127.0.0.1:5000/usuario/12345678`
 - **Method:** `DELETE`
 
 ---
 
-# ✅ Running Tests
+#  Running Tests
 
 To ensure everything is working correctly, run:
 
@@ -120,22 +120,22 @@ pytest -v
 </details>
 
 
-## 🌍 Introducción
+##  Introducción
 
 Flask_UserAPI es una API RESTful construida con Flask y Flask-RESTful para gestionar usuarios en una base de datos MySQL. Proporciona operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y sigue una estructura modular para facilitar su mantenimiento.
 
 Este README está disponible en inglés y español. A continuación, se detallan los pasos de instalación, uso y pruebas.
 
 <details> 
-  <summary>Flask_UserAPI 🔥🖥️ Español</summary>
+  <summary>Flask_UserAPI  Español</summary>
 
-## 📌 Descripción
+## Descripción
 
 Flask_UserAPI es una API RESTful que permite administrar usuarios de manera estructurada. Utiliza Flask-RESTful para definir los endpoints y MySQL como motor de base de datos.
 
 ---
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```sh
 Flask_UserAPI/
@@ -152,15 +152,15 @@ Flask_UserAPI/
 
 ---
 
-# 🚀 Instalación y Uso
-## 📌 1. Clonar el repositorio
+#  Instalación y Uso
+##  1. Clonar el repositorio
 
 ```sh
 git clone https://github.com/camilotenorio1234/Flask_UserAPI.git
 cd Flask_UserAPI
 ```
 
-## 📌 2. Instalar dependencias
+##  2. Instalar dependencias
 
 Asegúrate de tener Python 3 instalado y luego ejecuta:
 
@@ -168,7 +168,7 @@ Asegúrate de tener Python 3 instalado y luego ejecuta:
 pip install -r requirements.txt
 ```
 
-## 📌 3. Ejecutar la API
+##  3. Ejecutar la API
 
 Inicia la API con:
 
@@ -180,9 +180,9 @@ Por defecto, la API correrá en http://127.0.0.1:5000/.
 
 ---
 
-# 📡 Endpoints de la API
+#  Endpoints de la API
 
-## 🔹 Crear usuario (POST)
+##  Crear usuario (POST)
 
 - **URL:** `http://127.0.0.1:5000/usuario`
 - **Método:** `POST`
@@ -200,11 +200,11 @@ Por defecto, la API correrá en http://127.0.0.1:5000/.
 }
 ```
 
-## 🔹 Obtener usuario por ID (GET)
+##  Obtener usuario por ID (GET)
 - **URL:** `http://127.0.0.1:5000/usuario/12345678`
 - **Método:** `GET`
 
-## 🔹 Actualizar usuario (PUT)
+##  Actualizar usuario (PUT)
 - **URL:** `http://127.0.0.1:5000/usuario/12345678`
 - **Método:** `PUT`
 - **Body (JSON, Raw):**
@@ -219,13 +219,13 @@ Por defecto, la API correrá en http://127.0.0.1:5000/.
 }
 ```
 
-## 🔹 Eliminar usuario (DELETE)
+##  Eliminar usuario (DELETE)
 - **URL:** `http://127.0.0.1:5000/usuario/12345678`
 - **Método:** `DELETE`
 
 ---
 
-# ✅ Ejecutar Pruebas
+#  Ejecutar Pruebas
 
 Para asegurarte de que todo funciona correctamente, ejecuta:
 
@@ -244,7 +244,7 @@ pytest -v
 
 ---
 
-# 📌 Dependencias / Dependencies (requirements.txt)
+#  Dependencias / Dependencies (requirements.txt)
 ```sh
 Flask==3.0.2
 Flask-RESTful==0.3.10
